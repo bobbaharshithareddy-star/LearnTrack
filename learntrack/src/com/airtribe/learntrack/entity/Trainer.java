@@ -1,6 +1,6 @@
 package com.airtribe.learntrack.entity;
-//The class Trainer created to demonstrate we gained-->
-//1.No duplication 2.super() constructor chaining 3.Polymorphism via method overriding through Inheritence
+//The class Trainer created to demonstrate we gained--->
+//1.No duplication 2.super() constructor chaining 3.Polymorphism via method overriding through Inheritance
 public class Trainer extends Person {
 
     private String specialization;
