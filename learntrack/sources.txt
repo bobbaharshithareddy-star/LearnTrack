@@ -2,7 +2,6 @@ src/com/airtribe/learntrack/entity/Course.java
 src/com/airtribe/learntrack/entity/Enrollment.java
 src/com/airtribe/learntrack/entity/Person.java
 src/com/airtribe/learntrack/entity/Student.java
-src/com/airtribe/learntrack/entity/Trainer.java
 src/com/airtribe/learntrack/exception/EntityNotFoundException.java
 src/com/airtribe/learntrack/exception/InvalidInputException.java
 src/com/airtribe/learntrack/service/CourseService.java
