@@ -59,7 +59,7 @@ public class Main {
     private static void studentMenu() {
         boolean back = false;
         while (!back) {
-            System.out.println("\n─── Student Management ───");
+            System.out.println("\n─── LearnTrack Student & Course Management ───");
             System.out.println("  1. Add Student");
             System.out.println("  2. View All Students");
             System.out.println("  3. Search Student by ID");
