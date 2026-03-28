@@ -36,6 +36,7 @@ src/
     ├── entity/          # Core data classes
     │   ├── Person.java
     │   ├── Student.java
+    │   ├── Trainer.java
     │   ├── Course.java
     │   └── Enrollment.java
     ├── service/         # Business logic
@@ -97,15 +98,16 @@ docs/
          │ + getDisplayName()  │
          └────────┬────────────┘
                   │  extends
-                  │                  
-          ┌───────▼───────┐   
-          │    Student    │  
-          │───────────────│   
-          │ - batch       │    
-          │ - active      │
-          │───────────────│   
-          │+getDisplayN() │  
-          └───────────────┘
+        ┌─────────┴──────────┐
+        │                    │
+┌───────▼───────┐    ┌───────▼───────┐
+│    Student    │    │    Trainer    │
+│───────────────│    │───────────────│
+│ - batch       │    │ -specializ.   │
+│ - active      │    │───────────────│
+│───────────────│    │+getDisplayN() │
+│+getDisplayN() │    └───────────────┘
+└───────────────┘
 
 ┌────────────────────────┐
 │        Course          │
